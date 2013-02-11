@@ -1,0 +1,168 @@
+#wrapper{
+	overflow:auto;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	height:100%;
+	position: absolute;
+	top: 35%;
+}
+
+#left{
+	background-color:#1d1d1c;
+	float:left;
+	height:200px;
+	width:100px;
+	margin:100px 10px 0 0;
+}
+
+#middle{
+	min-width:100px;
+	margin:0 auto;
+	background-color:white;
+	width:auto;
+	height:400px;
+    overflow-y: scroll;
+	border:2px solid #F1F1F1
+ }
+
+
+#right{
+	background-color:#f9f8ef;
+	float:right;
+	height:300px;
+	width:100px;
+	margin:50px 0 0 10px;
+	border:1px solid #c6c6c6;
+}
+
+fieldset{
+	width:50px;
+	border:none;
+	font-size:0.8em;
+	padding: 8px;
+}
+
+fieldset label{
+	color:#F0F0F0;
+	text-align: left;
+	display: block;
+	width: 80px;
+}
+
+fieldset input{
+	width:73px;
+	margin-bottom: 20px;
+}
+
+fieldset a{
+	height: 23px;
+	width: 66px;
+	display:block;
+	margin: 0 0 0 15px;
+	background: url(../imgs/login.png);
+	background-position:top;
+	color:black;
+}
+
+
+fieldset input.err{
+	border: 2px red solid;
+	color:red;
+}
+
+fieldset a:hover,fieldset a.enabled:hover{
+	background-position:bottom;
+}
+
+fieldset a.enabled{
+	background-position:center;
+}
+
+#middle #content{
+	overflow:hidden;
+	width:auto;
+	height:auto;
+	background-color:#fff;
+	margin-top: 10px;
+}
+
+#middle #content table{
+	width:100%;
+	color:#458d96;
+	font-size: 0.85em;
+	font-family: Arial;
+	border-collapse: collapse;
+	margin:5px;
+}
+
+#middle #content table th{
+	text-align: left;
+}
+#middle #content table #col-1{
+	width:30%;
+	border-right:#F1F1F1 1px solid;
+}
+#middle #content table #col-2{
+	width:50%;
+}
+#middle #content table #col-3{
+	width:20%;
+}
+
+#middle #content table tr{
+	border:#F1F1F1 1px solid;
+	line-height: 2.4em;
+}
+
+#middle #content table td{
+	border-right:#F1F1F1 1px solid;
+}
+
+#middle #content table td.col-1{
+	text-align: left;
+}
+
+#middle #content table td .bar{
+	height:20px;
+	background-color:#458d96;
+	display: block;
+	float: left;
+	margin-top: 6px;
+}
+
+#middle #content table td input{
+	float:right;
+	margin-right:10px;
+}
+
+#middle #content table tr.hover{
+	background-color:#f6f5f1;
+	color:#c43427;
+}
+#middle #content table tr.hover td .bar{
+	background-color:#c43427;
+}
+
+#middle #content table tr td .percentage{
+	float:right;
+	margin-right:5px;
+}
+
+
+#middle #content table tr.clicked{
+	background-color:#edebe4;
+	color:#c43427;
+}
+#middle #content table tr.clicked td .bar{
+	background-color:#81221f;
+}
+
+#right .header{
+	background-color:#1D1D1C;
+	height:50px;
+}
+#questions .question{
+	color:blue;
+	cursor:pointer;
+}
